@@ -1,0 +1,111 @@
+body {
+  background: rgb(245,222,179);
+background: linear-gradient(38deg, rgba(245,222,179,1) 0%, rgba(76,211,200,1) 36%, rgba(0,206,209,1) 73%);
+  scroll-behavior: smooth;
+}
+.navbar {
+  background: rgb(245,222,179);
+  background: linear-gradient(28deg, rgba(245,222,179,1) 18%, rgba(76,211,200,1) 73%, rgba(0,206,209,1) 100%, rgba(255,140,0,1) 100%); 
+}
+.nav-link {
+  color: #000000;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+.nav-link:hover, .nav-link:focus {
+  background: rgb(245,222,179);
+  background: linear-gradient(28deg, rgba(245,222,179,1) 18%, rgba(76,211,200,1) 73%, rgba(0,206,209,1) 100%, rgba(255,140,0,1) 100%);
+}
+
+.modal-content{
+  background: rgb(245,222,179);
+  color: #00ced1;
+}
+
+
+#map{
+  height:400px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4px;
+  border-radius: 12px;
+  }  
+
+  .button-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.route-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.route-btn:hover {
+    background-color: #0056b3;
+}
+
+.accordion-button {
+  background: rgb(245,222,179);
+background: linear-gradient(315deg, rgba(245,222,179,1) 0%, rgba(76,211,200,1) 36%, rgba(0,206,209,1) 73%);
+  color: white; /* Cor do texto do cabeçalho */
+}
+.accordion-button:not(.collapsed) {
+  background: rgb(245,222,179);
+  background: linear-gradient(28deg, rgba(245,222,179,1) 18%, rgba(76,211,200,1) 73%, rgba(0,206,209,1) 100%, rgba(255,140,0,1) 100%);
+}
+.accordion-body {
+  background: rgb(245,222,179);
+  background: linear-gradient(28deg, rgba(245,222,179,1) 18%, rgba(76,211,200,1) 73%, rgba(0,206,209,1) 100%, rgba(255,140,0,1) 100%);
+}
+
+.carousel-caption {
+margin-top: 10px;
+position: absolute;
+bottom: 20px; /* Ajuste este valor conforme necessário */
+left: 0;
+right: 0;
+padding: 10px;
+}
+
+.carousel-caption h5, .carousel-caption p {
+margin: 0; /* Remove a margem padrão */
+}
+
+.carousel-caption h5 {
+font-size: min(max(16px, 2.5vw), 24px); /* Mínimo 16px, Fluido 2.5vw, Máximo 24px */
+}
+
+.carousel-caption p {
+font-size: min(max(14px, 2vw), 20px); /* Mínimo 14px, Fluido 2vw, Máximo 20px */
+}
+
+/* Media query para telas menores */
+@media (max-width: 576px) {
+.carousel-caption h5 {
+font-size: min(max(12px, 2vw), 20px); /* Mínimo 12px, Fluido 2vw, Máximo 20px */
+}
+
+.carousel-caption p {
+font-size: min(max(10px, 1.5vw), 16px); /* Mínimo 10px, Fluido 1.5vw, Máximo 16px */
+}
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+
+.footer {
+  background: rgb(245,222,179);
+  background: linear-gradient(28deg, rgba(245,222,179,1) 18%, rgba(76,211,200,1) 73%, rgba(0,206,209,1) 100%, rgba(255,140,0,1) 100%);
+}
+  
